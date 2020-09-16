@@ -275,7 +275,7 @@ async def queue(ctx, url: str):
         print("Downloading audio now\n")
         ydl.download([url])
 
-    await ctx.send("Adding song " + str(q_num) + " to the queue")
+    await ctx.send("Adding song to the queue")
     
     print("Song added to queue\n")
 
